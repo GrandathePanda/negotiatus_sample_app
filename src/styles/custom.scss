@@ -1,0 +1,43 @@
+body {
+  div {
+    font-size: 30px;
+  }
+  li {
+      width: 33%;
+  }
+  li.yellow {
+      background-color: yellow;
+  }
+  li.orange {
+      background-color: orange;
+  }
+  li.red {
+      background-color: red;
+  }
+  ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 1000px;
+  }
+  div.row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  div.container {
+      text-align: center;
+  }
+  div.formContainer {
+    height: auto;
+    margin: 0 auto;
+    width: 75%;
+  }
+  form {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      text-align: center;
+  }
+}
